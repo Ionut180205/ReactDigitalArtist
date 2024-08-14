@@ -1,0 +1,37 @@
+html {
+  scroll-behavior: smooth; /* Permite smooth scrolling */
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #942f2f;
+    color: white;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo-image {
+    width: 50px; /* Dimensiunea logo-ului */
+    height: auto;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  

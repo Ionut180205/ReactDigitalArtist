@@ -1,0 +1,32 @@
+.about {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .about-container {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .about-image {
+    width: 150px; /* Dimensiunea imaginii */
+    height: 150px; /* Dimensiunea imaginii */
+    border-radius: 50%; /* Rotunjirea imaginii */
+    object-fit: cover; /* Asigură că imaginea umple cercul */
+    margin-bottom: 20px;
+  }
+  
+  .about-name {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .about-description {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
